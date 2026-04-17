@@ -29,3 +29,10 @@ const initialState = {
   subjects: ["math", "physics", "chemistry"],
 };
 
+const gradesSlice = createSlice({
+  name: "grades",
+  initialState,
+  reducers: {},
+});
+
+export default gradesSlice.reducer;
